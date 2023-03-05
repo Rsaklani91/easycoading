@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<br lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Quiz.css">
+    
+    <title>Quiz</title>
+    
+
+
+
+
+    
+
+</head>
+
+<body>
+    
+       <h2> Q.1  What Does HTML stand for</h2>
+
+       <input type="radio" name="q1">Hyperlink and text markup Language<br>
+       <input type="radio" name="q1" id="correct1">Hyper text markup Language<br>
+       <input type="radio" name="q1">Home tool markup Language<br>
+    
+
+   
+
+
+
+
+
+
+
+
+       
+    <h2> Q.2  Who is making the web standards ?</h2>
+
+    <input type="radio" name="q2">Google<br>
+    <input type="radio" name="q2">Mozilla<br>
+    <input type="radio" name="q2">Microsoft<br>
+    <input type="radio" name="q2" id="correct2">The world wide web consortium<br>
+<!--  
+
+ 
+
+    
+    <h2> Q.3 Which HTML attribute specifies an alternate text for an image, if the image can not be displayed  ?  </h2>
+
+    <input type="radio" name="q3" id="correct3">alt<br>
+    <input type="radio" name="q3">src<br>
+    <input type="radio" name="q3">longdesc<br>
+    <input type="radio" name="q3">title<br>
+ 
+
+
+
+       
+    <h2> Q.4  Which Character is used to indicate an end tag ?</h2>
+
+    <input type="radio" name="q4" id="correct4">/<br>
+    <input type="radio" name="q4"><<br>
+    <input type="radio" name="q4">*<br>
+    <input type="radio" name="q4">^<br>
+
+ 
+
+ 
+
+
+
+       
+    <h2> Q.5  Graphics designed by SVG is in which format ?
+
+    <input type="radio" name="q5" id="correct5">XML<br>
+    <input type="radio" name="q5">HTML<br>
+    <input type="radio" name="q5">CSS<br>
+ 
+
+ 
+
+
+
+
+       
+    <h2> Q.6  The HTML canvas element is used to ?</h2>
+
+    <input type="radio" name="q6">Create draggable elements<br>
+    <input type="radio" name="q6">Display database records<br>
+    <input type="radio" name="q6" id="correct6">MDraw Graphics<br>
+    <input type="radio" name="q6">Manipulate data in MySQL<br>
+ 
+
+
+
+
+       
+    <h2> Q.7  In HTML, which attribute is used to specify that an input field must be filled out ?</h2>
+
+    <input type="radio" name="q7">Placeholder<br>
+    <input type="radio" name="q7" id="correct7">Required<br>
+    <input type="radio" name="q7">Formvalidate<br>
+    <input type="radio" name="q7">Validate<br>
+ 
+
+
+       
+    <h2> Q.8  Which input type defines a slider control ?</h2>
+
+    <input type="radio" name="q8">Control<br>
+    <input type="radio" name="q8">Slider<br>
+    <input type="radio" name="q8">Search<br>
+    <input type="radio" name="q8" id="correct8">Range<br>
+ 
+
+
+       
+    <h2> Q.9 Which HTML element is used to display a scalar measurement within a range ?</h2>
+
+    <input type="radio" name="q9">Measure<br>
+    <input type="radio" name="q9" id="correct9">Meter<br>
+    <input type="radio" name="q9">Range<br>
+    <input type="radio" name="q9">Gauge<br>
+ 
+
+
+       
+    <h2> Q.10  Which HTML element is used to specify a header for a document or section ?</h2>
+
+    <input type="radio" name="q10">Section<br>
+    <input type="radio" name="q10" id="correct10">Header<br>
+    <input type="radio" name="q10">top<br>
+    <input type="radio" name="q10">Head<br> -->
+ 
+
+    <input type ="submit" name="submit" value="submitQuiz" onclick="result()">
+
+
+    <script type="text/javascript">
+        function result(){
+           
+            var score=0;
+           If (document.getElementById('correct1').checked)
+        { score++;
+        }
+        If (document.getElementById('correct2').checked)
+        { score++;
+        }
+    //    If (document.getElementById('correct3').checked)
+    //     { score++;
+    //     }
+    //     If (document.getElementById('correct4').checked)
+    //     { score++;
+    //     }
+    //     If (document.getElementById('correct5').checked)
+    //     { score++;
+    //     }
+    //     If (document.getElementById('correct6').checked)
+    //     { score++;
+    //     }
+    //     If (document.getElementById('correct7').checked)
+    //     { score++;
+    //     }
+    //     If (document.getElementById('correct8').checked)
+    //     { score++;
+    //     }
+    //     If (document.getElementById('correct9').checked)
+    //     { score++;
+    //     }
+    //     If (document.getElementById('correct10').checked)
+    //     { score++;
+    //     }
+    // 
+
+
+        alert("your score is:"+score);
+        //to print on browser
+        //document.write("your score is:"+score);
+
+    }
+</script>
+
+
+
+    </body>
+    </html>
